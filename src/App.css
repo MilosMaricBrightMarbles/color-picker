@@ -58,3 +58,15 @@ body {
 .color-wheel {
     margin: 5%;
 }
+
+.link-icon {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2%;
+    margin-right: 2%;
+    font-size: 18px;
+}
+
+i {
+    cursor: pointer;
+}

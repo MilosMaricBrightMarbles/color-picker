@@ -13,6 +13,8 @@ export const formatHSLA = (h, l, a) => `hsl(${h}, ${DEFAULT_SATURATION}%, ${l}%,
 
 export const isValidLightness = l => typeof l === 'number' && l >= 0 && l <= 100
 
+export const isValidHue = h => typeof h === 'number' && h >= 0 && h <= 360
+
 export const getComplementaryHues = (initialHue, numberOfComplementaryColors) => {
     let maxHue = 360
     const hueDelta = maxHue / numberOfComplementaryColors
